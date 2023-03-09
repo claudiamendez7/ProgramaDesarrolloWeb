@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(115, 40, 212);
+    width: 100%;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border: solid 2px; 
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+nav{
+    background-color: brown;
+    width: 200%;
+    height: 80px;
+}
+
+li {
+    list-style: none;
+    color: yellow;
+}
+
+main{
+    background-color: purple (127, 129, 255);
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+    border: solid 3px green;
+    padding: 30px;
+}
+
+    p{
+    color: blue;
+    }    
+    h2{
+    color: red;
+    }
+    h4{
+    color: white;
+    }
+
+    img{
+        height: 100px;
+    }
+
+footer{
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+    background-image: radial-gradient(circle, green, purple);
+}
