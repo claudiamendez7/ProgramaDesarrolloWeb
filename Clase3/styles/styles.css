@@ -1,35 +1,46 @@
 header{
-    background-color: rgb(115, 40, 212);
+    background-color: rgb(75, 6, 88);
     width: 100%;
-    height: 100px;
+    height: 80px;
+    font-style: italic;
+}
+
+body{
+    background-color: linear-gradient(blue);
+    margin: 20px;
 }
 
 a{
     text-decoration: none;
-    background-color: white;
-    margin: 15px;
-    padding: 20px;
-    border: solid 2px; 
-    border-radius: 15px;
+    background-color: rgb(247, 229, 242);
+    margin: 500px;
+    padding: 40px;
+    border: solid 5px; 
+    border-radius: 20px;
     font-size: larger;
     font-weight: bold;
+    margin-left: 50px;
+    padding: 3px;
+    font-style: oblique;
+
 
 }
 
 nav{
     background-color: brown;
-    width: 200%;
-    height: 80px;
+    width: 100%;
+    height: 40px;
+    font-style:normal;
 }
 
 li {
     list-style: none;
-    color: yellow;
+    color: rgb(5, 61, 42);
 }
 
 main{
-    background-color: purple (127, 129, 255);
-    width: 100%;
+    background-color: rgb(170, 64, 129) (127, 129, 255);
+    width: 93%;
     height: 100%;
     margin: 15px;
     border: solid 3px green;
@@ -38,21 +49,22 @@ main{
 
     p{
     color: blue;
+    font-style: italic;
     }    
     h2{
     color: red;
     }
     h4{
-    color: white;
+    color: rgb(5, 44, 77);
     }
 
     img{
-        height: 100px;
+        height: 300px;
     }
 
 footer{
-    background-color: pink;
+    background-color: rgb(124, 139, 114);
     width: 100%;
-    height: 100px;
-    background-image: radial-gradient(circle, green, purple);
+    height: 50px;
+    background-image: -moz-linear-gradient(rgb(10, 83, 26));
 }
