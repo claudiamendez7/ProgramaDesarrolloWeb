@@ -1,0 +1,55 @@
+.main-container-up { 
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: normal
+}
+
+.mi-caja-apesta{
+    background-color: rgb(9, 6, 63);
+}
+
+.main-container-down{
+
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.div-containter{
+    display: flex;
+}
+
+.div-containter-div{
+    background-color: red;
+}
+
+.text-container{
+
+    background-color: greenyellow;
+}
+
+div{
+    background-color: blueviolet;
+    border: solid 2px blue
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+
+    width: 500px;
+    height: 300px;
+}
