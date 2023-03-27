@@ -1,0 +1,7 @@
+@media screen and (width < 700px) {
+    .container {
+        margin: 2rem auto 0;
+        padding: 3rem 2rem;
+        border: none;
+    }
+}

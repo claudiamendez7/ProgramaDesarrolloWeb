@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;
+    color: rgb(51, 51, 51);
+}
+
+.title:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.input:focus {
+    background-color: green;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.menu-item a:active {
+    color: transparent;
+    background-color: greenyellow !important;
+}
+
+.about__column:first-child {
+    background-color: transparent;
+}
+
+.about__column:last-child {
+    background-color: transparent
+}
+
+.about__column:nth-child(5n) {
+    background-color: indigo;
+}
+
+.button__lenguage {
+    background-color: rgb(109, 109, 109) !important;
+}
+
+.button__lenguage::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+}
+
+.anchor {
+    font-size: .9em;
+    color: rgb(51, 51, 51);
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    padding: 0 50px;
+    color: #FFF;
+    height: 64px;
+}
+
+.nav {
+    justify-content: space-between;
+    height: 100%;
+}
+
+.menu {
+    height: 100%;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.menu__expanded {
+    display: none;
+}
+
+.menu-item {
+    margin: 0 10px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item a {
+    color: #FFF;
+}
+
+.menu__mobile {
+    display: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.menu-item button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+}
+
+.menu__expanded {
+    position: absolute;
+    z-index: 1;
+
+    background-color: rgb(230, 230, 230);
+    padding: 10px 20px;
+    left: -12px;
+    top: 64px;
+    width: 275px;
+}
+
+.menu__expanded li {
+    padding: 10px;
+    border-bottom: solid 1px rgb(121, 121, 121);
+}
+
+.menu-item button, .menu-item a {
+    padding: 5px 10px;
+    font-size: .85em;
+}
+
+.menu-item button:hover, .menu-item a:hover {
+    background-color: rgb(71, 71, 71);
+    border-radius: 20px;
+}
+
+.menuitem:hover > .menu__expanded {
+    display: block;
+}
+
+.menu__expanded a:hover, .menu__expanded button:hover {
+    background-color: transparent;
+}
+
+
+.banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.banner::before {
+    content: "";
+    width: 60%;
+    height: 100%;
+    background-color: #0000007a;
+    position: absolute;
+    left: 0;
+}
+
+.banner__background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.companies {
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/DotCom_Update_U4B_bg_ipad.png");
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+.services {
+    width: 450px;
+    background: white;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+.features {
+    padding: 50px;
+}
+
+.feat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.feat__column {
+    width: 48%;
+}
+
+.feat__image {
+    width: 100%;
+}
+
+.feat__title {
+    margin: 20px 0 15px 0;
+    font-weight: 700;
+}
+
+.feat__paragraph {
+    font-weight: 300;
+}
+
+.about {
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__column {
+    width: 30%;
+}
+
+.about__title {
+    font-size: 1.5em;
+}
+
+.about__description {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.about__cta {
+    display: block;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}

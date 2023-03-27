@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.right {
+    display: flex;
+    margin-top: 11px;
+  }
+  
+.left {
+  
+    display: flex;
+    margin-top: 11px;
+}
+  
+.left img {
+    margin-top: 11px;
+    width: 43%;
+}
+  
+.left p {
+    margin-inline: 22px;
+    margin-top: 25px;
+}
+  
+.right p {
+    margin-inline: 22px;
+    margin-top: 21px;
+}
+
+.right i {
+    margin-top: 22px;
+    font-size: 22px;
+  }
+  
+.right button {
+    width: 100px;
+    height: 36px;
+    background-color: #fff;
+    color: black;
+    font-kerning: 600;
+    border: none;
+    border-radius: 22px;
+    margin-top: 12px;
+}
+
+.right button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+  
+.card {
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_911,h_512/v1653688635/assets/d1/1ffc67-97f4-469c-85ac-e18d1da3ae95/original/DotCom_Update_Rider_bg_med2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    height: 600px;
+}
+  
+.main {
+    width: 400px;
+    height: 400px;
+    margin-left: 44px;
+    background-color: #fff;
+}
+    
+.main .icon {
+    display: flex;
+    justify-content: center;
+    border-bottom:  1px solid rgb(224, 223, 223);
+}
+  
+.main .icon .car {
+    margin-inline: 74px;
+    margin-top: 31px;
+    border-bottom: 3px solid black;
+}
+  
+.icon .car i {
+    font-size: 123%;
+}
+
+section#business-header {
+    background-image: url("https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    padding-block: 4rem;
+  }
+  .business-header__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .business-header__text h3 {
+    font-size: 2.5rem;
+  }
+  .business-header__text p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+  }
+  
+.card h1 {
+    padding: 33px;
+    font-size: 33px;
+}
+  
+.card input {
+    width: 330px;
+    height: 30px;
+    padding: 8px;
+    background-color:  1px solid rgb(224, 223, 223);
+    margin-top: 8px;
+    border: none;
+    margin-left: 33px;
+}
+  
+.card .btn {
+    margin-left: 33px;
+    margin-top: 44px;
+}
+  
+.card .btn .fr {
+    width: 140px;
+    height: 40x;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+  
+.card .btn button {
+    width: 140px;
+    height: 36px;
+    background-color: rgb(190, 188, 188);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+  
+.safe {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}  
