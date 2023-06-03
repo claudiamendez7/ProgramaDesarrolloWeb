@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APi Países</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/country.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <h1>Where in the world?</h1>
+            <button class="btn-dark-mode">
+                <i class="far fa-moon"></i>
+                Dark Mode
+            </button>
+        </div>
+    </nav>
+
+    <header class="container filter-content my-2">
+        <button class="btn-back">
+            <i class="fas fa-arrow-left"></i>
+            <a href="index.html">
+                Back
+            </a>
+        </button>
+    </header>
+
+    <main class="country-info-container">
+        <div class="country-details">
+            <img src="" alt="" />
+            <div class="details-text-container">
+                <h1>Jordan</h1>
+                <div class="details-text">
+                    <p><b>Native Name: </b><span class="native-name"></span></p>
+                    <p><b>Population: </b><span class="population"></span></p>
+                    <p><b>Region: </b><span class="region"></span></p>
+                    <p><b>Sub Region: </b><span class="sub-region"></span></p>
+                    <p><b>Capital: </b><span class="capital"></span></p>
+                    <p>
+                        <b>Top Level Domain: </b><span class="top-level-domain"></span>
+                    </p>
+                    <p><b>Currencies: </b><span class="currencies"></span></p>
+                    <p><b>Languages: </b><span class="languages"></span></p>
+                </div>
+                <div class="border-countries"><b>Border Countries: </b>&nbsp;</div>
+            </div>
+        </div>
+  </main>
+
+    <script src="javascript/dark-mode.js"></script>
+    <script src="javascript/detail.js"></script>
+    <script src="javascript/api.js"></script>
+    <script src="javascript/country.js"></script>
+
+</body>
+</html>
