@@ -29,7 +29,7 @@ a {
     text-decoration: none;
 }
 img {
-    max-width: 100%;
+    width: 100%;
 }
 .container {
     max-width: 120rem;
@@ -102,9 +102,6 @@ h3 {
     background-color: var(--primaryDark);
     padding: 1rem;
 }
-.product__image {
-    width: 100%;
-}
 .product__name {
     font-size: 4rem;
 }
@@ -153,7 +150,6 @@ h3 {
 }
 .us__image {
     grid-row: 1 / 2;
-    width: 100%;
 }
 @media (min-width: 768px) {
     .us__image {
@@ -174,9 +170,41 @@ h3 {
 .block {
     text-align: center;
 }
-.block__image {
-    width: 100%;
-}
 .block__title {
     margin: 0;
+}
+/* Product site */
+@media (min-width: 768px) {
+    .shirt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.form__field {
+    border: 1rem solid var(--primaryDark);
+    background-color: transparent;
+    color: var(--white);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    appearance: none;
+}
+.form__submit {
+    background-color: var(--secondary);
+    border: none;
+    font-size: 2rem;
+    font-family: var(--fontFamily);
+    padding: 2rem;
+    transition: background-color .3s ease;
+    grid-column: 1 / 3;
+}
+.form__submit:hover {
+    cursor: pointer;
+    background-color: var(--secondaryDark);
 }
